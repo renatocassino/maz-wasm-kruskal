@@ -1,4 +1,3 @@
-// For more comments about what's going on here, check out the `hello_world`
-// example.
-import('./pkg')
-  .catch(console.error);
+import * as wasm from "./index_bg.wasm";
+export * from "./index_bg.js";
+wasm.__wbindgen_start();

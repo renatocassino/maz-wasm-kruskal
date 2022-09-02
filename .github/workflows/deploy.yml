@@ -43,4 +43,4 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: pkg # The folder the action should deploy.
 
-      - run: "curl -i -H 'Accept: application/json' -H 'Content-Type:application/json' -X POST --data '{\"content\":\"Deploy da aplicação *maze-wasm-prims*\",\"title\":\"Deploy finalizado\"}' https://discord.com/api/webhooks/${{ secrets.DISCORD_KEY }}"
+      - run: "curl -i -H 'Accept: application/json' -H 'Content-Type:application/json' -X POST --data '{\"content\":\"Deploy da aplicação *maze-wasm-kruskal*\",\"title\":\"Deploy finalizado\"}' https://discord.com/api/webhooks/${{ secrets.DISCORD_KEY }}"

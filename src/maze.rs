@@ -160,7 +160,7 @@ impl Maze {
         let mut keys: Vec<usize> = vec![];
         for (index, block) in self.blocks.iter().enumerate() {
             if self.possible_directions(index).len() > 0 {
-                keys.push(block.index.into());
+                keys.push(index);
             }
         }
 
